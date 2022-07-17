@@ -1,0 +1,53 @@
+.popupBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(225 222 222);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popupContainer3 {
+    width: 476px;
+    height: 310px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+  }
+  .image3{
+    height: 310px;
+    width: 210px;
+  }
+  .content{
+    padding-left: 15px;
+    position: relative;
+  }
+  .cancel{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    float: right;
+    padding: 10px 12px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.436);
+  }
+  input{
+    color: black;
+    width: 230px;
+    margin-bottom: 10px;
+    background-color: rgba(126, 118, 118, 0.219);
+  }
+  .offer{
+    width: 250px;
+    background-color: red;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 3px;
+    border: groove;
+  }

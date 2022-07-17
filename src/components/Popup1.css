@@ -1,0 +1,43 @@
+.popupBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(225 222 222);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popupContainer {
+    width: 466px;
+    height: 300px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .image1{
+    height: 300px;
+    width: 200px;
+  }
+  .content{
+    padding-left: 30px;
+  }
+  .nothanks{
+    background-color: red;
+    color: white;
+    margin: 6px;
+    border-radius: 3px;
+    padding: 6px;
+    border: none;
+  }
+  .shopnow{
+    background-color: black;
+    color: white;
+    margin: 6px;
+    border-radius: 3px;
+    padding: 6px;
+    border: none;
+  }
